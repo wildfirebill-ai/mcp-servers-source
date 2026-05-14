@@ -1,0 +1,10 @@
+services:
+  data-alchemist:
+    build: .
+    ports:
+      - "25006:25006"
+    environment:
+      - MCP_PORT=25006
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

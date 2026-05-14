@@ -1,0 +1,10 @@
+services:
+  react-forger:
+    build: .
+    ports:
+      - "25011:25011"
+    environment:
+      - MCP_PORT=25011
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+services:
+  node-crafter:
+    build: .
+    ports:
+      - "25014:25014"
+    environment:
+      - MCP_PORT=25014
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

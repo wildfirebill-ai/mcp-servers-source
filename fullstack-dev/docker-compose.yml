@@ -1,0 +1,10 @@
+services:
+  fullstack-dev:
+    build: .
+    ports:
+      - "25099:25099"
+    environment:
+      - MCP_PORT=25099
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

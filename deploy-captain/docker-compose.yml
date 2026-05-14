@@ -1,0 +1,10 @@
+services:
+  deploy-captain:
+    build: .
+    ports:
+      - "25044:25044"
+    environment:
+      - MCP_PORT=25044
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

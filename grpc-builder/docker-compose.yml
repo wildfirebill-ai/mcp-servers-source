@@ -1,0 +1,10 @@
+services:
+  grpc-builder:
+    build: .
+    ports:
+      - "25038:25038"
+    environment:
+      - MCP_PORT=25038
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

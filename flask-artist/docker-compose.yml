@@ -1,0 +1,10 @@
+services:
+  flask-artist:
+    build: .
+    ports:
+      - "25015:25015"
+    environment:
+      - MCP_PORT=25015
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

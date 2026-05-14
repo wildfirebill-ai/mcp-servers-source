@@ -1,0 +1,10 @@
+services:
+  jwt-master:
+    build: .
+    ports:
+      - "25093:25093"
+    environment:
+      - MCP_PORT=25093
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

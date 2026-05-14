@@ -1,0 +1,10 @@
+services:
+  encoding-expert:
+    build: .
+    ports:
+      - "25056:25056"
+    environment:
+      - MCP_PORT=25056
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

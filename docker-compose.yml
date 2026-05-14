@@ -1,0 +1,701 @@
+services:
+  code-architect:
+    build: ./001-code-architect
+    ports:
+      - "25000:25000"
+    environment:
+      - MCP_PORT=25000
+    restart: unless-stopped
+  python-weaver:
+    build: ./002-python-weaver
+    ports:
+      - "25001:25001"
+    environment:
+      - MCP_PORT=25001
+    restart: unless-stopped
+  web-sculptor:
+    build: ./003-web-sculptor
+    ports:
+      - "25002:25002"
+    environment:
+      - MCP_PORT=25002
+    restart: unless-stopped
+  design-crafter:
+    build: ./004-design-crafter
+    ports:
+      - "25003:25003"
+    environment:
+      - MCP_PORT=25003
+    restart: unless-stopped
+  browser-engineer:
+    build: ./005-browser-engineer
+    ports:
+      - "25004:25004"
+    environment:
+      - MCP_PORT=25004
+    restart: unless-stopped
+  devops-pilot:
+    build: ./006-devops-pilot
+    ports:
+      - "25005:25005"
+    environment:
+      - MCP_PORT=25005
+    restart: unless-stopped
+  data-alchemist:
+    build: ./007-data-alchemist
+    ports:
+      - "25006:25006"
+    environment:
+      - MCP_PORT=25006
+    restart: unless-stopped
+  api-builder:
+    build: ./008-api-builder
+    ports:
+      - "25007:25007"
+    environment:
+      - MCP_PORT=25007
+    restart: unless-stopped
+  css-artisan:
+    build: ./009-css-artisan
+    ports:
+      - "25008:25008"
+    environment:
+      - MCP_PORT=25008
+    restart: unless-stopped
+  js-virtuoso:
+    build: ./010-js-virtuoso
+    ports:
+      - "25009:25009"
+    environment:
+      - MCP_PORT=25009
+    restart: unless-stopped
+  ts-master:
+    build: ./011-ts-master
+    ports:
+      - "25010:25010"
+    environment:
+      - MCP_PORT=25010
+    restart: unless-stopped
+  react-forger:
+    build: ./012-react-forger
+    ports:
+      - "25011:25011"
+    environment:
+      - MCP_PORT=25011
+    restart: unless-stopped
+  vue-sage:
+    build: ./013-vue-sage
+    ports:
+      - "25012:25012"
+    environment:
+      - MCP_PORT=25012
+    restart: unless-stopped
+  angular-weaver:
+    build: ./014-angular-weaver
+    ports:
+      - "25013:25013"
+    environment:
+      - MCP_PORT=25013
+    restart: unless-stopped
+  node-crafter:
+    build: ./015-node-crafter
+    ports:
+      - "25014:25014"
+    environment:
+      - MCP_PORT=25014
+    restart: unless-stopped
+  flask-artist:
+    build: ./016-flask-artist
+    ports:
+      - "25015:25015"
+    environment:
+      - MCP_PORT=25015
+    restart: unless-stopped
+  django-master:
+    build: ./017-django-master
+    ports:
+      - "25016:25016"
+    environment:
+      - MCP_PORT=25016
+    restart: unless-stopped
+  fastapi-ace:
+    build: ./018-fastapi-ace
+    ports:
+      - "25017:25017"
+    environment:
+      - MCP_PORT=25017
+    restart: unless-stopped
+  sql-wizard:
+    build: ./019-sql-wizard
+    ports:
+      - "25018:25018"
+    environment:
+      - MCP_PORT=25018
+    restart: unless-stopped
+  nosql-expert:
+    build: ./020-nosql-expert
+    ports:
+      - "25019:25019"
+    environment:
+      - MCP_PORT=25019
+    restart: unless-stopped
+  git-guru:
+    build: ./021-git-guru
+    ports:
+      - "25020:25020"
+    environment:
+      - MCP_PORT=25020
+    restart: unless-stopped
+  docker-maestro:
+    build: ./022-docker-maestro
+    ports:
+      - "25021:25021"
+    environment:
+      - MCP_PORT=25021
+    restart: unless-stopped
+  kubernetes-captain:
+    build: ./023-kubernetes-captain
+    ports:
+      - "25022:25022"
+    environment:
+      - MCP_PORT=25022
+    restart: unless-stopped
+  ci-cd-engineer:
+    build: ./024-ci-cd-engineer
+    ports:
+      - "25023:25023"
+    environment:
+      - MCP_PORT=25023
+    restart: unless-stopped
+  test-architect:
+    build: ./025-test-architect
+    ports:
+      - "25024:25024"
+    environment:
+      - MCP_PORT=25024
+    restart: unless-stopped
+  debug-detectiv:
+    build: ./026-debug-detectiv
+    ports:
+      - "25025:25025"
+    environment:
+      - MCP_PORT=25025
+    restart: unless-stopped
+  perf-tuner:
+    build: ./027-perf-tuner
+    ports:
+      - "25026:25026"
+    environment:
+      - MCP_PORT=25026
+    restart: unless-stopped
+  security-sentinel:
+    build: ./028-security-sentinel
+    ports:
+      - "25027:25027"
+    environment:
+      - MCP_PORT=25027
+    restart: unless-stopped
+  auth-guardian:
+    build: ./029-auth-guardian
+    ports:
+      - "25028:25028"
+    environment:
+      - MCP_PORT=25028
+    restart: unless-stopped
+  ml-practitioner:
+    build: ./030-ml-practitioner
+    ports:
+      - "25029:25029"
+    environment:
+      - MCP_PORT=25029
+    restart: unless-stopped
+  ai-architect:
+    build: ./031-ai-architect
+    ports:
+      - "25030:25030"
+    environment:
+      - MCP_PORT=25030
+    restart: unless-stopped
+  algorithm-master:
+    build: ./032-algorithm-master
+    ports:
+      - "25031:25031"
+    environment:
+      - MCP_PORT=25031
+    restart: unless-stopped
+  data-struct-wiz:
+    build: ./033-data-struct-wiz
+    ports:
+      - "25032:25032"
+    environment:
+      - MCP_PORT=25032
+    restart: unless-stopped
+  regex-ranger:
+    build: ./034-regex-ranger
+    ports:
+      - "25033:25033"
+    environment:
+      - MCP_PORT=25033
+    restart: unless-stopped
+  cli-commander:
+    build: ./035-cli-commander
+    ports:
+      - "25034:25034"
+    environment:
+      - MCP_PORT=25034
+    restart: unless-stopped
+  graphql-ninja:
+    build: ./036-graphql-ninja
+    ports:
+      - "25035:25035"
+    environment:
+      - MCP_PORT=25035
+    restart: unless-stopped
+  rest-api-pro:
+    build: ./037-rest-api-pro
+    ports:
+      - "25036:25036"
+    environment:
+      - MCP_PORT=25036
+    restart: unless-stopped
+  websocket-mage:
+    build: ./038-websocket-mage
+    ports:
+      - "25037:25037"
+    environment:
+      - MCP_PORT=25037
+    restart: unless-stopped
+  grpc-builder:
+    build: ./039-grpc-builder
+    ports:
+      - "25038:25038"
+    environment:
+      - MCP_PORT=25038
+    restart: unless-stopped
+  microservice-arch:
+    build: ./040-microservice-arch
+    ports:
+      - "25039:25039"
+    environment:
+      - MCP_PORT=25039
+    restart: unless-stopped
+  queue-master:
+    build: ./041-queue-master
+    ports:
+      - "25040:25040"
+    environment:
+      - MCP_PORT=25040
+    restart: unless-stopped
+  cache-wizard:
+    build: ./042-cache-wizard
+    ports:
+      - "25041:25041"
+    environment:
+      - MCP_PORT=25041
+    restart: unless-stopped
+  search-engineer:
+    build: ./043-search-engineer
+    ports:
+      - "25042:25042"
+    environment:
+      - MCP_PORT=25042
+    restart: unless-stopped
+  log-analyst:
+    build: ./044-log-analyst
+    ports:
+      - "25043:25043"
+    environment:
+      - MCP_PORT=25043
+    restart: unless-stopped
+  deploy-captain:
+    build: ./045-deploy-captain
+    ports:
+      - "25044:25044"
+    environment:
+      - MCP_PORT=25044
+    restart: unless-stopped
+  cloud-architect:
+    build: ./046-cloud-architect
+    ports:
+      - "25045:25045"
+    environment:
+      - MCP_PORT=25045
+    restart: unless-stopped
+  aws-specialist:
+    build: ./047-aws-specialist
+    ports:
+      - "25046:25046"
+    environment:
+      - MCP_PORT=25046
+    restart: unless-stopped
+  azure-pro:
+    build: ./048-azure-pro
+    ports:
+      - "25047:25047"
+    environment:
+      - MCP_PORT=25047
+    restart: unless-stopped
+  gcp-expert:
+    build: ./049-gcp-expert
+    ports:
+      - "25048:25048"
+    environment:
+      - MCP_PORT=25048
+    restart: unless-stopped
+  terraform-builder:
+    build: ./050-terraform-builder
+    ports:
+      - "25049:25049"
+    environment:
+      - MCP_PORT=25049
+    restart: unless-stopped
+  ansible-crafter:
+    build: ./051-ansible-crafter
+    ports:
+      - "25050:25050"
+    environment:
+      - MCP_PORT=25050
+    restart: unless-stopped
+  vim-master:
+    build: ./052-vim-master
+    ports:
+      - "25051:25051"
+    environment:
+      - MCP_PORT=25051
+    restart: unless-stopped
+  emacs-sage:
+    build: ./053-emacs-sage
+    ports:
+      - "25052:25052"
+    environment:
+      - MCP_PORT=25052
+    restart: unless-stopped
+  shell-weaver:
+    build: ./054-shell-weaver
+    ports:
+      - "25053:25053"
+    environment:
+      - MCP_PORT=25053
+    restart: unless-stopped
+  powershell-pro:
+    build: ./055-powershell-pro
+    ports:
+      - "25054:25054"
+    environment:
+      - MCP_PORT=25054
+    restart: unless-stopped
+  network-engineer:
+    build: ./056-network-engineer
+    ports:
+      - "25055:25055"
+    environment:
+      - MCP_PORT=25055
+    restart: unless-stopped
+  encoding-expert:
+    build: ./057-encoding-expert
+    ports:
+      - "25056:25056"
+    environment:
+      - MCP_PORT=25056
+    restart: unless-stopped
+  compression-wiz:
+    build: ./058-compression-wiz
+    ports:
+      - "25057:25057"
+    environment:
+      - MCP_PORT=25057
+    restart: unless-stopped
+  image-processor:
+    build: ./059-image-processor
+    ports:
+      - "25058:25058"
+    environment:
+      - MCP_PORT=25058
+    restart: unless-stopped
+  animation-crafter:
+    build: ./060-animation-crafter
+    ports:
+      - "25059:25059"
+    environment:
+      - MCP_PORT=25059
+    restart: unless-stopped
+  game-dev-builder:
+    build: ./061-game-dev-builder
+    ports:
+      - "25060:25060"
+    environment:
+      - MCP_PORT=25060
+    restart: unless-stopped
+  mobile-dev-artist:
+    build: ./062-mobile-dev-artist
+    ports:
+      - "25061:25061"
+    environment:
+      - MCP_PORT=25061
+    restart: unless-stopped
+  responsive-master:
+    build: ./063-responsive-master
+    ports:
+      - "25062:25062"
+    environment:
+      - MCP_PORT=25062
+    restart: unless-stopped
+  a11y-advocate:
+    build: ./064-a11y-advocate
+    ports:
+      - "25063:25063"
+    environment:
+      - MCP_PORT=25063
+    restart: unless-stopped
+  seo-specialist:
+    build: ./065-seo-specialist
+    ports:
+      - "25064:25064"
+    environment:
+      - MCP_PORT=25064
+    restart: unless-stopped
+  analytics-guru:
+    build: ./066-analytics-guru
+    ports:
+      - "25065:25065"
+    environment:
+      - MCP_PORT=25065
+    restart: unless-stopped
+  i18n-master:
+    build: ./067-i18n-master
+    ports:
+      - "25066:25066"
+    environment:
+      - MCP_PORT=25066
+    restart: unless-stopped
+  l10n-expert:
+    build: ./068-l10n-expert
+    ports:
+      - "25067:25067"
+    environment:
+      - MCP_PORT=25067
+    restart: unless-stopped
+  component-designer:
+    build: ./069-component-designer
+    ports:
+      - "25068:25068"
+    environment:
+      - MCP_PORT=25068
+    restart: unless-stopped
+  design-system-arch:
+    build: ./070-design-system-arch
+    ports:
+      - "25069:25069"
+    environment:
+      - MCP_PORT=25069
+    restart: unless-stopped
+  color-theorist:
+    build: ./071-color-theorist
+    ports:
+      - "25070:25070"
+    environment:
+      - MCP_PORT=25070
+    restart: unless-stopped
+  typography-master:
+    build: ./072-typography-master
+    ports:
+      - "25071:25071"
+    environment:
+      - MCP_PORT=25071
+    restart: unless-stopped
+  layout-artist:
+    build: ./073-layout-artist
+    ports:
+      - "25072:25072"
+    environment:
+      - MCP_PORT=25072
+    restart: unless-stopped
+  svg-artist:
+    build: ./074-svg-artist
+    ports:
+      - "25073:25073"
+    environment:
+      - MCP_PORT=25073
+    restart: unless-stopped
+  canvas-wizard:
+    build: ./075-canvas-wizard
+    ports:
+      - "25074:25074"
+    environment:
+      - MCP_PORT=25074
+    restart: unless-stopped
+  webgl-builder:
+    build: ./076-webgl-builder
+    ports:
+      - "25075:25075"
+    environment:
+      - MCP_PORT=25075
+    restart: unless-stopped
+  wasm-specialist:
+    build: ./077-wasm-specialist
+    ports:
+      - "25076:25076"
+    environment:
+      - MCP_PORT=25076
+    restart: unless-stopped
+  pwa-architect:
+    build: ./078-pwa-architect
+    ports:
+      - "25077:25077"
+    environment:
+      - MCP_PORT=25077
+    restart: unless-stopped
+  meta-tag-master:
+    build: ./079-meta-tag-master
+    ports:
+      - "25078:25078"
+    environment:
+      - MCP_PORT=25078
+    restart: unless-stopped
+  html-craftsman:
+    build: ./080-html-craftsman
+    ports:
+      - "25079:25079"
+    environment:
+      - MCP_PORT=25079
+    restart: unless-stopped
+  http-protocol-pro:
+    build: ./081-http-protocol-pro
+    ports:
+      - "25080:25080"
+    environment:
+      - MCP_PORT=25080
+    restart: unless-stopped
+  json-validator:
+    build: ./082-json-validator
+    ports:
+      - "25081:25081"
+    environment:
+      - MCP_PORT=25081
+    restart: unless-stopped
+  yaml-tamer:
+    build: ./083-yaml-tamer
+    ports:
+      - "25082:25082"
+    environment:
+      - MCP_PORT=25082
+    restart: unless-stopped
+  markdown-scribe:
+    build: ./084-markdown-scribe
+    ports:
+      - "25083:25083"
+    environment:
+      - MCP_PORT=25083
+    restart: unless-stopped
+  openapi-designer:
+    build: ./085-openapi-designer
+    ports:
+      - "25084:25084"
+    environment:
+      - MCP_PORT=25084
+    restart: unless-stopped
+  proto-compiler:
+    build: ./086-proto-compiler
+    ports:
+      - "25085:25085"
+    environment:
+      - MCP_PORT=25085
+    restart: unless-stopped
+  code-formatter:
+    build: ./087-code-formatter
+    ports:
+      - "25086:25086"
+    environment:
+      - MCP_PORT=25086
+    restart: unless-stopped
+  static-site-gen:
+    build: ./088-static-site-gen
+    ports:
+      - "25087:25087"
+    environment:
+      - MCP_PORT=25087
+    restart: unless-stopped
+  jamstack-dev:
+    build: ./089-jamstack-dev
+    ports:
+      - "25088:25088"
+    environment:
+      - MCP_PORT=25088
+    restart: unless-stopped
+  cdn-specialist:
+    build: ./090-cdn-specialist
+    ports:
+      - "25089:25089"
+    environment:
+      - MCP_PORT=25089
+    restart: unless-stopped
+  webhook-builder:
+    build: ./091-webhook-builder
+    ports:
+      - "25090:25090"
+    environment:
+      - MCP_PORT=25090
+    restart: unless-stopped
+  sse-crafter:
+    build: ./092-sse-crafter
+    ports:
+      - "25091:25091"
+    environment:
+      - MCP_PORT=25091
+    restart: unless-stopped
+  oauth-guardian:
+    build: ./093-oauth-guardian
+    ports:
+      - "25092:25092"
+    environment:
+      - MCP_PORT=25092
+    restart: unless-stopped
+  jwt-master:
+    build: ./094-jwt-master
+    ports:
+      - "25093:25093"
+    environment:
+      - MCP_PORT=25093
+    restart: unless-stopped
+  rate-limiter:
+    build: ./095-rate-limiter
+    ports:
+      - "25094:25094"
+    environment:
+      - MCP_PORT=25094
+    restart: unless-stopped
+  proxy-engineer:
+    build: ./096-proxy-engineer
+    ports:
+      - "25095:25095"
+    environment:
+      - MCP_PORT=25095
+    restart: unless-stopped
+  load-balancer:
+    build: ./097-load-balancer
+    ports:
+      - "25096:25096"
+    environment:
+      - MCP_PORT=25096
+    restart: unless-stopped
+  db-migrator:
+    build: ./098-db-migrator
+    ports:
+      - "25097:25097"
+    environment:
+      - MCP_PORT=25097
+    restart: unless-stopped
+  seed-data-pro:
+    build: ./099-seed-data-pro
+    ports:
+      - "25098:25098"
+    environment:
+      - MCP_PORT=25098
+    restart: unless-stopped
+  fullstack-dev:
+    build: ./100-fullstack-dev
+    ports:
+      - "25099:25099"
+    environment:
+      - MCP_PORT=25099
+    restart: unless-stopped

@@ -1,0 +1,21 @@
+2026-05-14 18:03:16,903 [INFO] Server starting — terraform-builder:25049
+2026-05-14 18:12:27,766 [INFO] Server starting — terraform-builder:25049
+2026-05-14 18:12:29,771 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:29,775 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,775 [INFO] TOOL ping args={}
+2026-05-14 18:12:29,776 [INFO] TOOK ping OK
+2026-05-14 18:12:29,780 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,780 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:29,780 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:29,784 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,784 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:29,784 [INFO] TOOK echo OK
+2026-05-14 18:12:29,788 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,789 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:29,789 [INFO] TOOK memory_set OK
+2026-05-14 18:12:29,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,793 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:29,794 [INFO] TOOK memory_get OK
+2026-05-14 18:12:29,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:29,798 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:29,799 [INFO] TOOK memory_delete OK

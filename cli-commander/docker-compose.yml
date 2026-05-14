@@ -1,0 +1,10 @@
+services:
+  cli-commander:
+    build: .
+    ports:
+      - "25034:25034"
+    environment:
+      - MCP_PORT=25034
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

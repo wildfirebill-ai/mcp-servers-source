@@ -1,0 +1,10 @@
+services:
+  a11y-advocate:
+    build: .
+    ports:
+      - "25063:25063"
+    environment:
+      - MCP_PORT=25063
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

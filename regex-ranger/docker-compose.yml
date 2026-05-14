@@ -1,0 +1,10 @@
+services:
+  regex-ranger:
+    build: .
+    ports:
+      - "25033:25033"
+    environment:
+      - MCP_PORT=25033
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+services:
+  sse-crafter:
+    build: .
+    ports:
+      - "25091:25091"
+    environment:
+      - MCP_PORT=25091
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

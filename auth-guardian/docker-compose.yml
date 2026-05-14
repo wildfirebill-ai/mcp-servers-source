@@ -1,0 +1,10 @@
+services:
+  auth-guardian:
+    build: .
+    ports:
+      - "25028:25028"
+    environment:
+      - MCP_PORT=25028
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

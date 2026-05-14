@@ -1,0 +1,10 @@
+services:
+  design-system-arch:
+    build: .
+    ports:
+      - "25069:25069"
+    environment:
+      - MCP_PORT=25069
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

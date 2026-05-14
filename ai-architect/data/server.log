@@ -1,0 +1,159 @@
+2026-05-14 17:32:53,389 [INFO] Server starting — ai-architect:25030
+2026-05-14 17:32:56,338 [INFO] Processing request of type ListToolsRequest
+2026-05-14 17:32:56,342 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,346 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,349 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,353 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,356 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,359 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,363 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,367 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,372 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,376 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,379 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,382 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,386 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,390 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,394 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,398 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,402 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,406 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,409 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,412 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,416 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:32:56,417 [INFO] Warning: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-05-14 17:33:26,257 [INFO] Server starting — ai-architect:25030
+2026-05-14 17:33:29,268 [INFO] Processing request of type ListToolsRequest
+2026-05-14 17:33:29,272 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,276 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,280 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,283 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,287 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,290 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,293 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,297 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,300 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,303 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,307 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,311 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,314 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,318 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,322 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,326 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,330 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,334 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,338 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,342 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,345 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:29,346 [INFO] Warning: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-05-14 17:33:43,010 [INFO] Server starting — ai-architect:25030
+2026-05-14 17:33:46,018 [INFO] Processing request of type ListToolsRequest
+2026-05-14 17:33:46,023 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,027 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,030 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,034 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,038 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,041 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,045 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,048 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,051 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,055 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,058 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,061 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,065 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,069 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,075 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,079 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,083 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,087 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,090 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,094 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,097 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:33:46,098 [INFO] Warning: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-05-14 17:34:15,155 [INFO] Server starting — ai-architect:25030
+2026-05-14 17:34:18,139 [INFO] Processing request of type ListToolsRequest
+2026-05-14 17:34:18,143 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,143 [INFO] TOOL ping args={}
+2026-05-14 17:34:18,143 [INFO] TOOK ping OK
+2026-05-14 17:34:18,147 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,147 [INFO] TOOL echo args={'text': 'Hello MCP World!'}
+2026-05-14 17:34:18,147 [INFO] TOOK echo OK
+2026-05-14 17:34:18,150 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,150 [INFO] TOOL get_server_info args={}
+2026-05-14 17:34:18,151 [INFO] TOOK get_server_info OK
+2026-05-14 17:34:18,154 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,154 [INFO] TOOL get_skills args={}
+2026-05-14 17:34:18,154 [INFO] TOOK get_skills OK
+2026-05-14 17:34:18,157 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,157 [INFO] TOOL generate_uuid args={}
+2026-05-14 17:34:18,157 [INFO] TOOK generate_uuid OK
+2026-05-14 17:34:18,161 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,161 [INFO] TOOL calculate args={'expression': '2 + 3 * 4'}
+2026-05-14 17:34:18,161 [INFO] TOOK calculate OK
+2026-05-14 17:34:18,164 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,164 [INFO] TOOL encode_base64 args={'text': 'hello'}
+2026-05-14 17:34:18,164 [INFO] TOOK encode_base64 OK
+2026-05-14 17:34:18,168 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,168 [INFO] TOOL decode_base64 args={'encoded': 'aGVsbG8='}
+2026-05-14 17:34:18,168 [INFO] TOOK decode_base64 OK
+2026-05-14 17:34:18,172 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,172 [INFO] TOOL hash_text args={'text': 'test', 'algorithm': 'sha256'}
+2026-05-14 17:34:18,172 [INFO] TOOK hash_text OK
+2026-05-14 17:34:18,175 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,175 [INFO] TOOL validate_json args={'text': '{"a":1}'}
+2026-05-14 17:34:18,175 [INFO] TOOK validate_json OK
+2026-05-14 17:34:18,178 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,179 [INFO] TOOL validate_json args={'text': 'invalid'}
+2026-05-14 17:34:18,179 [INFO] TOOK validate_json OK
+2026-05-14 17:34:18,182 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,182 [INFO] TOOL format_json args={'text': '{"b":2,"a":1}'}
+2026-05-14 17:34:18,182 [INFO] TOOK format_json OK
+2026-05-14 17:34:18,185 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,185 [INFO] TOOL memory_set args={'key': 'foo', 'value': 'bar'}
+2026-05-14 17:34:18,186 [INFO] TOOK memory_set OK
+2026-05-14 17:34:18,189 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,189 [INFO] TOOL memory_get args={'key': 'foo'}
+2026-05-14 17:34:18,191 [INFO] TOOK memory_get OK
+2026-05-14 17:34:18,194 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,194 [INFO] TOOL memory_list args={}
+2026-05-14 17:34:18,194 [INFO] TOOK memory_list OK
+2026-05-14 17:34:18,198 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,198 [INFO] TOOL memory_delete args={'key': 'foo'}
+2026-05-14 17:34:18,198 [INFO] TOOK memory_delete OK
+2026-05-14 17:34:18,202 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,202 [INFO] TOOL memory_stats args={}
+2026-05-14 17:34:18,202 [INFO] TOOK memory_stats OK
+2026-05-14 17:34:18,206 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,206 [INFO] TOOL generate_password args={'length': 20}
+2026-05-14 17:34:18,206 [INFO] TOOK generate_password OK
+2026-05-14 17:34:18,209 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,209 [INFO] TOOL random_number args={'min_val': 1, 'max_val': 10}
+2026-05-14 17:34:18,209 [INFO] TOOK random_number OK
+2026-05-14 17:34:18,212 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,212 [INFO] TOOL count_words args={'text': 'one two three four'}
+2026-05-14 17:34:18,212 [INFO] TOOK count_words OK
+2026-05-14 17:34:18,216 [INFO] Processing request of type CallToolRequest
+2026-05-14 17:34:18,216 [INFO] TOOL get_time args={}
+2026-05-14 17:34:18,216 [INFO] TOOK get_time OK
+2026-05-14 17:34:18,217 [INFO] Warning: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-05-14 18:02:11,848 [INFO] Server starting — ai-architect:25030
+2026-05-14 18:11:11,742 [INFO] Server starting — ai-architect:25030
+2026-05-14 18:11:13,755 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:11:13,759 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,759 [INFO] TOOL ping args={}
+2026-05-14 18:11:13,759 [INFO] TOOK ping OK
+2026-05-14 18:11:13,763 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,763 [INFO] TOOL get_server_info args={}
+2026-05-14 18:11:13,763 [INFO] TOOK get_server_info OK
+2026-05-14 18:11:13,767 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,767 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:11:13,767 [INFO] TOOK echo OK
+2026-05-14 18:11:13,771 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,771 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:11:13,771 [INFO] TOOK memory_set OK
+2026-05-14 18:11:13,775 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,775 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:11:13,777 [INFO] TOOK memory_get OK
+2026-05-14 18:11:13,780 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:13,781 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:11:13,781 [INFO] TOOK memory_delete OK

@@ -1,0 +1,21 @@
+2026-05-14 18:04:49,184 [INFO] Server starting — wasm-specialist:25076
+2026-05-14 18:14:15,718 [INFO] Server starting — wasm-specialist:25076
+2026-05-14 18:14:17,733 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:17,737 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,738 [INFO] TOOL ping args={}
+2026-05-14 18:14:17,738 [INFO] TOOK ping OK
+2026-05-14 18:14:17,741 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,741 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:17,741 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:17,745 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,745 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:17,745 [INFO] TOOK echo OK
+2026-05-14 18:14:17,749 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,749 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:17,750 [INFO] TOOK memory_set OK
+2026-05-14 18:14:17,753 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,754 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:17,755 [INFO] TOOK memory_get OK
+2026-05-14 18:14:17,758 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:17,759 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:17,759 [INFO] TOOK memory_delete OK

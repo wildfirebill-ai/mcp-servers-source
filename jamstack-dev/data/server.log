@@ -1,0 +1,21 @@
+2026-05-14 18:05:30,245 [INFO] Server starting — jamstack-dev:25088
+2026-05-14 18:15:03,934 [INFO] Server starting — jamstack-dev:25088
+2026-05-14 18:15:05,962 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:15:05,967 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,967 [INFO] TOOL ping args={}
+2026-05-14 18:15:05,967 [INFO] TOOK ping OK
+2026-05-14 18:15:05,972 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,972 [INFO] TOOL get_server_info args={}
+2026-05-14 18:15:05,972 [INFO] TOOK get_server_info OK
+2026-05-14 18:15:05,975 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,975 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:15:05,976 [INFO] TOOK echo OK
+2026-05-14 18:15:05,980 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,980 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:15:05,981 [INFO] TOOK memory_set OK
+2026-05-14 18:15:05,984 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,984 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:15:05,986 [INFO] TOOK memory_get OK
+2026-05-14 18:15:05,989 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:05,989 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:15:05,990 [INFO] TOOK memory_delete OK

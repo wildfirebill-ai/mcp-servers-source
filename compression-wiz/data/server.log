@@ -1,0 +1,21 @@
+2026-05-14 18:03:44,201 [INFO] Server starting — compression-wiz:25057
+2026-05-14 18:12:59,748 [INFO] Server starting — compression-wiz:25057
+2026-05-14 18:13:01,773 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:13:01,777 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,777 [INFO] TOOL ping args={}
+2026-05-14 18:13:01,777 [INFO] TOOK ping OK
+2026-05-14 18:13:01,781 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,781 [INFO] TOOL get_server_info args={}
+2026-05-14 18:13:01,781 [INFO] TOOK get_server_info OK
+2026-05-14 18:13:01,785 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,785 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:13:01,785 [INFO] TOOK echo OK
+2026-05-14 18:13:01,789 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,789 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:13:01,790 [INFO] TOOK memory_set OK
+2026-05-14 18:13:01,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,794 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:13:01,795 [INFO] TOOK memory_get OK
+2026-05-14 18:13:01,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:01,799 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:13:01,799 [INFO] TOOK memory_delete OK

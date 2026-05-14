@@ -1,0 +1,10 @@
+services:
+  perf-tuner:
+    build: .
+    ports:
+      - "25026:25026"
+    environment:
+      - MCP_PORT=25026
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

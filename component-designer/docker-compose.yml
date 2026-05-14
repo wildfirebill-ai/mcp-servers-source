@@ -1,0 +1,10 @@
+services:
+  component-designer:
+    build: .
+    ports:
+      - "25068:25068"
+    environment:
+      - MCP_PORT=25068
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

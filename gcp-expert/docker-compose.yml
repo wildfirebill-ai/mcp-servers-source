@@ -1,0 +1,10 @@
+services:
+  gcp-expert:
+    build: .
+    ports:
+      - "25048:25048"
+    environment:
+      - MCP_PORT=25048
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

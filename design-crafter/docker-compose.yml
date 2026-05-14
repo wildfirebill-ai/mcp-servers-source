@@ -1,0 +1,10 @@
+services:
+  design-crafter:
+    build: .
+    ports:
+      - "25003:25003"
+    environment:
+      - MCP_PORT=25003
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

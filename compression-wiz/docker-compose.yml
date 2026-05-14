@@ -1,0 +1,10 @@
+services:
+  compression-wiz:
+    build: .
+    ports:
+      - "25057:25057"
+    environment:
+      - MCP_PORT=25057
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

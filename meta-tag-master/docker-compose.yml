@@ -1,0 +1,10 @@
+services:
+  meta-tag-master:
+    build: .
+    ports:
+      - "25078:25078"
+    environment:
+      - MCP_PORT=25078
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

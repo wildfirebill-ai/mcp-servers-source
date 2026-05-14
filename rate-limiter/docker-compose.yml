@@ -1,0 +1,10 @@
+services:
+  rate-limiter:
+    build: .
+    ports:
+      - "25094:25094"
+    environment:
+      - MCP_PORT=25094
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

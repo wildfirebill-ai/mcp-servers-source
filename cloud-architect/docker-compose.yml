@@ -1,0 +1,10 @@
+services:
+  cloud-architect:
+    build: .
+    ports:
+      - "25045:25045"
+    environment:
+      - MCP_PORT=25045
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

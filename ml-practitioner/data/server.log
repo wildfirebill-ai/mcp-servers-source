@@ -1,0 +1,21 @@
+2026-05-14 18:02:08,433 [INFO] Server starting — ml-practitioner:25029
+2026-05-14 18:11:07,732 [INFO] Server starting — ml-practitioner:25029
+2026-05-14 18:11:09,758 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:11:09,762 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,762 [INFO] TOOL ping args={}
+2026-05-14 18:11:09,762 [INFO] TOOK ping OK
+2026-05-14 18:11:09,766 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,766 [INFO] TOOL get_server_info args={}
+2026-05-14 18:11:09,766 [INFO] TOOK get_server_info OK
+2026-05-14 18:11:09,769 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,770 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:11:09,770 [INFO] TOOK echo OK
+2026-05-14 18:11:09,774 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,774 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:11:09,774 [INFO] TOOK memory_set OK
+2026-05-14 18:11:09,778 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,778 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:11:09,779 [INFO] TOOK memory_get OK
+2026-05-14 18:11:09,783 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:09,783 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:11:09,783 [INFO] TOOK memory_delete OK

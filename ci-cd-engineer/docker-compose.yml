@@ -1,0 +1,10 @@
+services:
+  ci-cd-engineer:
+    build: .
+    ports:
+      - "25023:25023"
+    environment:
+      - MCP_PORT=25023
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

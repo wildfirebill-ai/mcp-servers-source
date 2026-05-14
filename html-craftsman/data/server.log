@@ -1,0 +1,21 @@
+2026-05-14 18:04:59,471 [INFO] Server starting — html-craftsman:25079
+2026-05-14 18:14:27,729 [INFO] Server starting — html-craftsman:25079
+2026-05-14 18:14:29,753 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:29,757 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,757 [INFO] TOOL ping args={}
+2026-05-14 18:14:29,758 [INFO] TOOK ping OK
+2026-05-14 18:14:29,761 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,762 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:29,762 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:29,765 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,765 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:29,765 [INFO] TOOK echo OK
+2026-05-14 18:14:29,770 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,770 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:29,770 [INFO] TOOK memory_set OK
+2026-05-14 18:14:29,774 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,774 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:29,775 [INFO] TOOK memory_get OK
+2026-05-14 18:14:29,779 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:29,779 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:29,780 [INFO] TOOK memory_delete OK

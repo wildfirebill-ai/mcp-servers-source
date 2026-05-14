@@ -1,0 +1,10 @@
+services:
+  powershell-pro:
+    build: .
+    ports:
+      - "25054:25054"
+    environment:
+      - MCP_PORT=25054
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

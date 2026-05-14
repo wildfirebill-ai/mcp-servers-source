@@ -1,0 +1,21 @@
+2026-05-14 18:01:44,427 [INFO] Server starting — kubernetes-captain:25022
+2026-05-14 18:10:39,724 [INFO] Server starting — kubernetes-captain:25022
+2026-05-14 18:10:41,742 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:41,746 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,746 [INFO] TOOL ping args={}
+2026-05-14 18:10:41,746 [INFO] TOOK ping OK
+2026-05-14 18:10:41,750 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,750 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:41,750 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:41,754 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,754 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:41,755 [INFO] TOOK echo OK
+2026-05-14 18:10:41,758 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,759 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:41,759 [INFO] TOOK memory_set OK
+2026-05-14 18:10:41,763 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,763 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:41,764 [INFO] TOOK memory_get OK
+2026-05-14 18:10:41,768 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:41,768 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:41,769 [INFO] TOOK memory_delete OK

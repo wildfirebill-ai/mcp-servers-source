@@ -1,0 +1,10 @@
+services:
+  image-processor:
+    build: .
+    ports:
+      - "25058:25058"
+    environment:
+      - MCP_PORT=25058
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

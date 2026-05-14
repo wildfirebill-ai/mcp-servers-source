@@ -1,0 +1,21 @@
+2026-05-14 18:05:16,612 [INFO] Server starting — openapi-designer:25084
+2026-05-14 18:14:47,743 [INFO] Server starting — openapi-designer:25084
+2026-05-14 18:14:49,773 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:49,777 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,777 [INFO] TOOL ping args={}
+2026-05-14 18:14:49,777 [INFO] TOOK ping OK
+2026-05-14 18:14:49,781 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,781 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:49,781 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:49,785 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,785 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:49,785 [INFO] TOOK echo OK
+2026-05-14 18:14:49,789 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,789 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:49,790 [INFO] TOOK memory_set OK
+2026-05-14 18:14:49,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,793 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:49,794 [INFO] TOOK memory_get OK
+2026-05-14 18:14:49,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:49,798 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:49,799 [INFO] TOOK memory_delete OK

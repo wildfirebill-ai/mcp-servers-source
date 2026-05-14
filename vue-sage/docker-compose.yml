@@ -1,0 +1,10 @@
+services:
+  vue-sage:
+    build: .
+    ports:
+      - "25012:25012"
+    environment:
+      - MCP_PORT=25012
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

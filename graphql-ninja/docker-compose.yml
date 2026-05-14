@@ -1,0 +1,10 @@
+services:
+  graphql-ninja:
+    build: .
+    ports:
+      - "25035:25035"
+    environment:
+      - MCP_PORT=25035
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

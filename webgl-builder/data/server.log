@@ -1,0 +1,21 @@
+2026-05-14 18:04:45,770 [INFO] Server starting — webgl-builder:25075
+2026-05-14 18:14:11,712 [INFO] Server starting — webgl-builder:25075
+2026-05-14 18:14:13,735 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:13,739 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,739 [INFO] TOOL ping args={}
+2026-05-14 18:14:13,740 [INFO] TOOK ping OK
+2026-05-14 18:14:13,743 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,743 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:13,743 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:13,747 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,747 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:13,747 [INFO] TOOK echo OK
+2026-05-14 18:14:13,751 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,751 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:13,751 [INFO] TOOK memory_set OK
+2026-05-14 18:14:13,755 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,755 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:13,756 [INFO] TOOK memory_get OK
+2026-05-14 18:14:13,759 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:13,760 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:13,760 [INFO] TOOK memory_delete OK

@@ -1,0 +1,10 @@
+services:
+  docker-maestro:
+    build: .
+    ports:
+      - "25021:25021"
+    environment:
+      - MCP_PORT=25021
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+services:
+  layout-artist:
+    build: .
+    ports:
+      - "25072:25072"
+    environment:
+      - MCP_PORT=25072
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

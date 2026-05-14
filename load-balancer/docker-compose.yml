@@ -1,0 +1,10 @@
+services:
+  load-balancer:
+    build: .
+    ports:
+      - "25096:25096"
+    environment:
+      - MCP_PORT=25096
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

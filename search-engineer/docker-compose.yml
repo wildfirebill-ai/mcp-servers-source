@@ -1,0 +1,10 @@
+services:
+  search-engineer:
+    build: .
+    ports:
+      - "25042:25042"
+    environment:
+      - MCP_PORT=25042
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+services:
+  mobile-dev-artist:
+    build: .
+    ports:
+      - "25061:25061"
+    environment:
+      - MCP_PORT=25061
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

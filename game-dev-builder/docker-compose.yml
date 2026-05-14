@@ -1,0 +1,10 @@
+services:
+  game-dev-builder:
+    build: .
+    ports:
+      - "25060:25060"
+    environment:
+      - MCP_PORT=25060
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

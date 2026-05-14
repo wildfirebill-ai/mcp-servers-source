@@ -1,0 +1,10 @@
+services:
+  l10n-expert:
+    build: .
+    ports:
+      - "25067:25067"
+    environment:
+      - MCP_PORT=25067
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

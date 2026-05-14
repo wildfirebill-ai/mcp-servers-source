@@ -1,0 +1,10 @@
+services:
+  queue-master:
+    build: .
+    ports:
+      - "25040:25040"
+    environment:
+      - MCP_PORT=25040
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

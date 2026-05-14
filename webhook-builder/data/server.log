@@ -1,0 +1,21 @@
+2026-05-14 18:05:37,085 [INFO] Server starting — webhook-builder:25090
+2026-05-14 18:15:11,932 [INFO] Server starting — webhook-builder:25090
+2026-05-14 18:15:13,948 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:15:13,953 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,953 [INFO] TOOL ping args={}
+2026-05-14 18:15:13,953 [INFO] TOOK ping OK
+2026-05-14 18:15:13,957 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,957 [INFO] TOOL get_server_info args={}
+2026-05-14 18:15:13,957 [INFO] TOOK get_server_info OK
+2026-05-14 18:15:13,960 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,960 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:15:13,960 [INFO] TOOK echo OK
+2026-05-14 18:15:13,964 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,964 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:15:13,965 [INFO] TOOK memory_set OK
+2026-05-14 18:15:13,968 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,968 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:15:13,970 [INFO] TOOK memory_get OK
+2026-05-14 18:15:13,973 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:13,973 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:15:13,974 [INFO] TOOK memory_delete OK

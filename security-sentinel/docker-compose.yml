@@ -1,0 +1,10 @@
+services:
+  security-sentinel:
+    build: .
+    ports:
+      - "25027:25027"
+    environment:
+      - MCP_PORT=25027
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

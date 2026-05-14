@@ -1,0 +1,10 @@
+services:
+  canvas-wizard:
+    build: .
+    ports:
+      - "25074:25074"
+    environment:
+      - MCP_PORT=25074
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

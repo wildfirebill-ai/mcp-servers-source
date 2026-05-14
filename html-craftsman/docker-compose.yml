@@ -1,0 +1,10 @@
+services:
+  html-craftsman:
+    build: .
+    ports:
+      - "25079:25079"
+    environment:
+      - MCP_PORT=25079
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

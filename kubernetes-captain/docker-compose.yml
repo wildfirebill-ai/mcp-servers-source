@@ -1,0 +1,10 @@
+services:
+  kubernetes-captain:
+    build: .
+    ports:
+      - "25022:25022"
+    environment:
+      - MCP_PORT=25022
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

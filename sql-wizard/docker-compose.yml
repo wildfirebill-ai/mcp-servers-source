@@ -1,0 +1,10 @@
+services:
+  sql-wizard:
+    build: .
+    ports:
+      - "25018:25018"
+    environment:
+      - MCP_PORT=25018
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

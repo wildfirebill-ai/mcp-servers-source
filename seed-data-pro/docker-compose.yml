@@ -1,0 +1,10 @@
+services:
+  seed-data-pro:
+    build: .
+    ports:
+      - "25098:25098"
+    environment:
+      - MCP_PORT=25098
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

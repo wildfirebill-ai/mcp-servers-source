@@ -1,0 +1,10 @@
+services:
+  i18n-master:
+    build: .
+    ports:
+      - "25066:25066"
+    environment:
+      - MCP_PORT=25066
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

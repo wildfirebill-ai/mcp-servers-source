@@ -1,0 +1,21 @@
+2026-05-14 18:04:11,560 [INFO] Server starting — analytics-guru:25065
+2026-05-14 18:13:31,762 [INFO] Server starting — analytics-guru:25065
+2026-05-14 18:13:33,777 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:13:33,781 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,781 [INFO] TOOL ping args={}
+2026-05-14 18:13:33,781 [INFO] TOOK ping OK
+2026-05-14 18:13:33,785 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,785 [INFO] TOOL get_server_info args={}
+2026-05-14 18:13:33,786 [INFO] TOOK get_server_info OK
+2026-05-14 18:13:33,789 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,789 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:13:33,789 [INFO] TOOK echo OK
+2026-05-14 18:13:33,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,794 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:13:33,794 [INFO] TOOK memory_set OK
+2026-05-14 18:13:33,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,798 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:13:33,800 [INFO] TOOK memory_get OK
+2026-05-14 18:13:33,804 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:13:33,804 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:13:33,805 [INFO] TOOK memory_delete OK

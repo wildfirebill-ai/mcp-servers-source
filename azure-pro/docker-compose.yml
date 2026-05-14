@@ -1,0 +1,10 @@
+services:
+  azure-pro:
+    build: .
+    ports:
+      - "25047:25047"
+    environment:
+      - MCP_PORT=25047
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

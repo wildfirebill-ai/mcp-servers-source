@@ -1,0 +1,10 @@
+services:
+  algorithm-master:
+    build: .
+    ports:
+      - "25031:25031"
+    environment:
+      - MCP_PORT=25031
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

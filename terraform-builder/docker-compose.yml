@@ -1,0 +1,10 @@
+services:
+  terraform-builder:
+    build: .
+    ports:
+      - "25049:25049"
+    environment:
+      - MCP_PORT=25049
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

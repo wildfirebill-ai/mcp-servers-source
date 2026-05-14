@@ -1,0 +1,21 @@
+2026-05-14 18:02:25,527 [INFO] Server starting — cli-commander:25034
+2026-05-14 18:11:27,730 [INFO] Server starting — cli-commander:25034
+2026-05-14 18:11:29,739 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:11:29,743 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,743 [INFO] TOOL ping args={}
+2026-05-14 18:11:29,743 [INFO] TOOK ping OK
+2026-05-14 18:11:29,747 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,747 [INFO] TOOL get_server_info args={}
+2026-05-14 18:11:29,747 [INFO] TOOK get_server_info OK
+2026-05-14 18:11:29,751 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,751 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:11:29,751 [INFO] TOOK echo OK
+2026-05-14 18:11:29,756 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,756 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:11:29,757 [INFO] TOOK memory_set OK
+2026-05-14 18:11:29,760 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,761 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:11:29,762 [INFO] TOOK memory_get OK
+2026-05-14 18:11:29,766 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:29,766 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:11:29,767 [INFO] TOOK memory_delete OK

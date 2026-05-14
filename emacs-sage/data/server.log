@@ -1,0 +1,21 @@
+2026-05-14 18:03:27,098 [INFO] Server starting — emacs-sage:25052
+2026-05-14 18:12:39,845 [INFO] Server starting — emacs-sage:25052
+2026-05-14 18:12:41,779 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:41,783 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,783 [INFO] TOOL ping args={}
+2026-05-14 18:12:41,784 [INFO] TOOK ping OK
+2026-05-14 18:12:41,787 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,788 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:41,788 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:41,791 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,791 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:41,791 [INFO] TOOK echo OK
+2026-05-14 18:12:41,795 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,795 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:41,796 [INFO] TOOK memory_set OK
+2026-05-14 18:12:41,800 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,800 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:41,801 [INFO] TOOK memory_get OK
+2026-05-14 18:12:41,805 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:41,805 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:41,806 [INFO] TOOK memory_delete OK

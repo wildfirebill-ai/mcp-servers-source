@@ -1,0 +1,21 @@
+2026-05-14 18:03:33,930 [INFO] Server starting — powershell-pro:25054
+2026-05-14 18:12:47,752 [INFO] Server starting — powershell-pro:25054
+2026-05-14 18:12:49,768 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:49,772 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,773 [INFO] TOOL ping args={}
+2026-05-14 18:12:49,773 [INFO] TOOK ping OK
+2026-05-14 18:12:49,776 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,777 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:49,777 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:49,780 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,780 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:49,780 [INFO] TOOK echo OK
+2026-05-14 18:12:49,784 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,784 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:49,785 [INFO] TOOK memory_set OK
+2026-05-14 18:12:49,788 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,789 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:49,790 [INFO] TOOK memory_get OK
+2026-05-14 18:12:49,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:49,793 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:49,794 [INFO] TOOK memory_delete OK

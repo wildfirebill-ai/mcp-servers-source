@@ -1,0 +1,10 @@
+services:
+  yaml-tamer:
+    build: .
+    ports:
+      - "25082:25082"
+    environment:
+      - MCP_PORT=25082
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

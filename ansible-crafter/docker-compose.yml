@@ -1,0 +1,10 @@
+services:
+  ansible-crafter:
+    build: .
+    ports:
+      - "25050:25050"
+    environment:
+      - MCP_PORT=25050
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

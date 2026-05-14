@@ -1,0 +1,10 @@
+services:
+  aws-specialist:
+    build: .
+    ports:
+      - "25046:25046"
+    environment:
+      - MCP_PORT=25046
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

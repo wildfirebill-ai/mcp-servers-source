@@ -1,0 +1,10 @@
+services:
+  proxy-engineer:
+    build: .
+    ports:
+      - "25095:25095"
+    environment:
+      - MCP_PORT=25095
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

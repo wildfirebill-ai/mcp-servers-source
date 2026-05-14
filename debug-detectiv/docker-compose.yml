@@ -1,0 +1,10 @@
+services:
+  debug-detectiv:
+    build: .
+    ports:
+      - "25025:25025"
+    environment:
+      - MCP_PORT=25025
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

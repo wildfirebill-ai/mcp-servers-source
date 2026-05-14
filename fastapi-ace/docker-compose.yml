@@ -1,0 +1,10 @@
+services:
+  fastapi-ace:
+    build: .
+    ports:
+      - "25017:25017"
+    environment:
+      - MCP_PORT=25017
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

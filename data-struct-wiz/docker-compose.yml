@@ -1,0 +1,10 @@
+services:
+  data-struct-wiz:
+    build: .
+    ports:
+      - "25032:25032"
+    environment:
+      - MCP_PORT=25032
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

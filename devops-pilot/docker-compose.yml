@@ -1,0 +1,10 @@
+services:
+  devops-pilot:
+    build: .
+    ports:
+      - "25005:25005"
+    environment:
+      - MCP_PORT=25005
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

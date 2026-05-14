@@ -1,0 +1,10 @@
+services:
+  wasm-specialist:
+    build: .
+    ports:
+      - "25076:25076"
+    environment:
+      - MCP_PORT=25076
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

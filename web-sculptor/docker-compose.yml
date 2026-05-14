@@ -1,0 +1,10 @@
+services:
+  web-sculptor:
+    build: .
+    ports:
+      - "25002:25002"
+    environment:
+      - MCP_PORT=25002
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

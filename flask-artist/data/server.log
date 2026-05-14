@@ -1,0 +1,41 @@
+2026-05-14 18:01:20,483 [INFO] Server starting — flask-artist:25015
+2026-05-14 18:08:26,652 [INFO] Server starting — flask-artist:25015
+2026-05-14 18:08:30,673 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:08:30,678 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,678 [INFO] TOOL ping args={}
+2026-05-14 18:08:30,678 [INFO] TOOK ping OK
+2026-05-14 18:08:30,682 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,682 [INFO] TOOL get_server_info args={}
+2026-05-14 18:08:30,682 [INFO] TOOK get_server_info OK
+2026-05-14 18:08:30,686 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,686 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:08:30,686 [INFO] TOOK echo OK
+2026-05-14 18:08:30,690 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,690 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:08:30,691 [INFO] TOOK memory_set OK
+2026-05-14 18:08:30,694 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,694 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:08:30,695 [INFO] TOOK memory_get OK
+2026-05-14 18:08:30,699 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:30,699 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:08:30,700 [INFO] TOOK memory_delete OK
+2026-05-14 18:10:11,754 [INFO] Server starting — flask-artist:25015
+2026-05-14 18:10:13,759 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:13,764 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,764 [INFO] TOOL ping args={}
+2026-05-14 18:10:13,764 [INFO] TOOK ping OK
+2026-05-14 18:10:13,768 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,768 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:13,768 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:13,772 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,772 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:13,772 [INFO] TOOK echo OK
+2026-05-14 18:10:13,775 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,775 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:13,776 [INFO] TOOK memory_set OK
+2026-05-14 18:10:13,779 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,780 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:13,781 [INFO] TOOK memory_get OK
+2026-05-14 18:10:13,785 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:13,785 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:13,785 [INFO] TOOK memory_delete OK

@@ -1,0 +1,10 @@
+services:
+  responsive-master:
+    build: .
+    ports:
+      - "25062:25062"
+    environment:
+      - MCP_PORT=25062
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

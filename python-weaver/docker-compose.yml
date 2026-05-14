@@ -1,0 +1,10 @@
+services:
+  python-weaver:
+    build: .
+    ports:
+      - "25001:25001"
+    environment:
+      - MCP_PORT=25001
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

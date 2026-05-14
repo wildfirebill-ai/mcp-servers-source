@@ -1,0 +1,10 @@
+services:
+  markdown-scribe:
+    build: .
+    ports:
+      - "25083:25083"
+    environment:
+      - MCP_PORT=25083
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

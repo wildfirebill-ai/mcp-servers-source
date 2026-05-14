@@ -1,0 +1,10 @@
+services:
+  openapi-designer:
+    build: .
+    ports:
+      - "25084:25084"
+    environment:
+      - MCP_PORT=25084
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

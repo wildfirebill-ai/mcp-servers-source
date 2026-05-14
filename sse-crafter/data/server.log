@@ -1,0 +1,21 @@
+2026-05-14 18:05:40,555 [INFO] Server starting — sse-crafter:25091
+2026-05-14 18:15:15,916 [INFO] Server starting — sse-crafter:25091
+2026-05-14 18:15:17,934 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:15:17,939 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,939 [INFO] TOOL ping args={}
+2026-05-14 18:15:17,939 [INFO] TOOK ping OK
+2026-05-14 18:15:17,943 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,943 [INFO] TOOL get_server_info args={}
+2026-05-14 18:15:17,943 [INFO] TOOK get_server_info OK
+2026-05-14 18:15:17,946 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,947 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:15:17,947 [INFO] TOOK echo OK
+2026-05-14 18:15:17,951 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,951 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:15:17,952 [INFO] TOOK memory_set OK
+2026-05-14 18:15:17,955 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,955 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:15:17,957 [INFO] TOOK memory_get OK
+2026-05-14 18:15:17,961 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:17,961 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:15:17,961 [INFO] TOOK memory_delete OK

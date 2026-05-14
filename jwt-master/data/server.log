@@ -1,0 +1,21 @@
+2026-05-14 18:05:47,373 [INFO] Server starting — jwt-master:25093
+2026-05-14 18:15:23,902 [INFO] Server starting — jwt-master:25093
+2026-05-14 18:15:25,923 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:15:25,927 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,928 [INFO] TOOL ping args={}
+2026-05-14 18:15:25,928 [INFO] TOOK ping OK
+2026-05-14 18:15:25,931 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,932 [INFO] TOOL get_server_info args={}
+2026-05-14 18:15:25,932 [INFO] TOOK get_server_info OK
+2026-05-14 18:15:25,935 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,935 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:15:25,935 [INFO] TOOK echo OK
+2026-05-14 18:15:25,939 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,939 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:15:25,940 [INFO] TOOK memory_set OK
+2026-05-14 18:15:25,944 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,944 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:15:25,945 [INFO] TOOK memory_get OK
+2026-05-14 18:15:25,948 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:25,948 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:15:25,949 [INFO] TOOK memory_delete OK

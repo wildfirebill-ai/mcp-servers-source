@@ -1,0 +1,10 @@
+services:
+  proto-compiler:
+    build: .
+    ports:
+      - "25085:25085"
+    environment:
+      - MCP_PORT=25085
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

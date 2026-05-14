@@ -1,0 +1,10 @@
+services:
+  css-artisan:
+    build: .
+    ports:
+      - "25008:25008"
+    environment:
+      - MCP_PORT=25008
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,21 @@
+2026-05-14 18:01:51,286 [INFO] Server starting — test-architect:25024
+2026-05-14 18:10:47,696 [INFO] Server starting — test-architect:25024
+2026-05-14 18:10:49,721 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:49,726 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,726 [INFO] TOOL ping args={}
+2026-05-14 18:10:49,726 [INFO] TOOK ping OK
+2026-05-14 18:10:49,730 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,730 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:49,730 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:49,734 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,734 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:49,734 [INFO] TOOK echo OK
+2026-05-14 18:10:49,738 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,739 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:49,739 [INFO] TOOK memory_set OK
+2026-05-14 18:10:49,743 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,743 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:49,744 [INFO] TOOK memory_get OK
+2026-05-14 18:10:49,748 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:49,748 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:49,748 [INFO] TOOK memory_delete OK

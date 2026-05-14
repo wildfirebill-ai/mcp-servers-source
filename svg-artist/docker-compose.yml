@@ -1,0 +1,10 @@
+services:
+  svg-artist:
+    build: .
+    ports:
+      - "25073:25073"
+    environment:
+      - MCP_PORT=25073
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

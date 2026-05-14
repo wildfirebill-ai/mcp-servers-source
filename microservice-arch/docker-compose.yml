@@ -1,0 +1,10 @@
+services:
+  microservice-arch:
+    build: .
+    ports:
+      - "25039:25039"
+    environment:
+      - MCP_PORT=25039
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

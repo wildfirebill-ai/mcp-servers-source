@@ -1,0 +1,10 @@
+services:
+  ai-architect:
+    build: .
+    ports:
+      - "25030:25030"
+    environment:
+      - MCP_PORT=25030
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

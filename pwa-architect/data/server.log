@@ -1,0 +1,21 @@
+2026-05-14 18:04:52,609 [INFO] Server starting — pwa-architect:25077
+2026-05-14 18:14:19,718 [INFO] Server starting — pwa-architect:25077
+2026-05-14 18:14:21,733 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:21,738 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,738 [INFO] TOOL ping args={}
+2026-05-14 18:14:21,738 [INFO] TOOK ping OK
+2026-05-14 18:14:21,742 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,742 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:21,743 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:21,746 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,746 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:21,746 [INFO] TOOK echo OK
+2026-05-14 18:14:21,751 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,751 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:21,751 [INFO] TOOK memory_set OK
+2026-05-14 18:14:21,755 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,755 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:21,756 [INFO] TOOK memory_get OK
+2026-05-14 18:14:21,760 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:21,760 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:21,760 [INFO] TOOK memory_delete OK

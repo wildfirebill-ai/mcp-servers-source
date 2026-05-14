@@ -1,0 +1,10 @@
+services:
+  ts-master:
+    build: .
+    ports:
+      - "25010:25010"
+    environment:
+      - MCP_PORT=25010
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

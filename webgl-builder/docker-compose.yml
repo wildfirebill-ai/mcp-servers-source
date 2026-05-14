@@ -1,0 +1,10 @@
+services:
+  webgl-builder:
+    build: .
+    ports:
+      - "25075:25075"
+    environment:
+      - MCP_PORT=25075
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

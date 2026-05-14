@@ -1,0 +1,10 @@
+services:
+  http-protocol-pro:
+    build: .
+    ports:
+      - "25080:25080"
+    environment:
+      - MCP_PORT=25080
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

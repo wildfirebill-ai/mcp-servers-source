@@ -1,0 +1,10 @@
+services:
+  webhook-builder:
+    build: .
+    ports:
+      - "25090:25090"
+    environment:
+      - MCP_PORT=25090
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

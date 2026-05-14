@@ -1,0 +1,41 @@
+2026-05-14 18:01:10,242 [INFO] Server starting — vue-sage:25012
+2026-05-14 18:08:08,643 [INFO] Server starting — vue-sage:25012
+2026-05-14 18:08:12,666 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:08:12,670 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,670 [INFO] TOOL ping args={}
+2026-05-14 18:08:12,670 [INFO] TOOK ping OK
+2026-05-14 18:08:12,674 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,674 [INFO] TOOL get_server_info args={}
+2026-05-14 18:08:12,674 [INFO] TOOK get_server_info OK
+2026-05-14 18:08:12,677 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,678 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:08:12,678 [INFO] TOOK echo OK
+2026-05-14 18:08:12,682 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,682 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:08:12,682 [INFO] TOOK memory_set OK
+2026-05-14 18:08:12,686 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,686 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:08:12,688 [INFO] TOOK memory_get OK
+2026-05-14 18:08:12,691 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:12,691 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:08:12,692 [INFO] TOOK memory_delete OK
+2026-05-14 18:09:59,736 [INFO] Server starting — vue-sage:25012
+2026-05-14 18:10:01,763 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:01,768 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,768 [INFO] TOOL ping args={}
+2026-05-14 18:10:01,768 [INFO] TOOK ping OK
+2026-05-14 18:10:01,772 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,772 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:01,772 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:01,775 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,776 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:01,776 [INFO] TOOK echo OK
+2026-05-14 18:10:01,779 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,779 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:01,780 [INFO] TOOK memory_set OK
+2026-05-14 18:10:01,783 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,783 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:01,785 [INFO] TOOK memory_get OK
+2026-05-14 18:10:01,788 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:01,788 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:01,789 [INFO] TOOK memory_delete OK

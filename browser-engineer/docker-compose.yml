@@ -1,0 +1,10 @@
+services:
+  browser-engineer:
+    build: .
+    ports:
+      - "25004:25004"
+    environment:
+      - MCP_PORT=25004
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

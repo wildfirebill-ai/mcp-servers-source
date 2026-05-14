@@ -1,0 +1,21 @@
+2026-05-14 18:02:18,697 [INFO] Server starting — data-struct-wiz:25032
+2026-05-14 18:11:19,744 [INFO] Server starting — data-struct-wiz:25032
+2026-05-14 18:11:21,765 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:11:21,770 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,770 [INFO] TOOL ping args={}
+2026-05-14 18:11:21,770 [INFO] TOOK ping OK
+2026-05-14 18:11:21,774 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,775 [INFO] TOOL get_server_info args={}
+2026-05-14 18:11:21,775 [INFO] TOOK get_server_info OK
+2026-05-14 18:11:21,779 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,779 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:11:21,779 [INFO] TOOK echo OK
+2026-05-14 18:11:21,783 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,783 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:11:21,784 [INFO] TOOK memory_set OK
+2026-05-14 18:11:21,788 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,788 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:11:21,789 [INFO] TOOK memory_get OK
+2026-05-14 18:11:21,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:21,793 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:11:21,794 [INFO] TOOK memory_delete OK

@@ -1,0 +1,21 @@
+2026-05-14 18:05:13,156 [INFO] Server starting — markdown-scribe:25083
+2026-05-14 18:14:43,751 [INFO] Server starting — markdown-scribe:25083
+2026-05-14 18:14:45,766 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:45,770 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,770 [INFO] TOOL ping args={}
+2026-05-14 18:14:45,770 [INFO] TOOK ping OK
+2026-05-14 18:14:45,774 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,775 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:45,775 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:45,778 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,779 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:45,779 [INFO] TOOK echo OK
+2026-05-14 18:14:45,783 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,783 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:45,784 [INFO] TOOK memory_set OK
+2026-05-14 18:14:45,787 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,787 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:45,788 [INFO] TOOK memory_get OK
+2026-05-14 18:14:45,792 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:45,792 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:45,793 [INFO] TOOK memory_delete OK

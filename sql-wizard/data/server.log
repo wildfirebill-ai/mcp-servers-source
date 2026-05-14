@@ -1,0 +1,41 @@
+2026-05-14 18:01:30,731 [INFO] Server starting — sql-wizard:25018
+2026-05-14 18:08:44,654 [INFO] Server starting — sql-wizard:25018
+2026-05-14 18:08:48,683 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:08:48,687 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,687 [INFO] TOOL ping args={}
+2026-05-14 18:08:48,687 [INFO] TOOK ping OK
+2026-05-14 18:08:48,691 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,691 [INFO] TOOL get_server_info args={}
+2026-05-14 18:08:48,691 [INFO] TOOK get_server_info OK
+2026-05-14 18:08:48,695 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,695 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:08:48,695 [INFO] TOOK echo OK
+2026-05-14 18:08:48,699 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,700 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:08:48,700 [INFO] TOOK memory_set OK
+2026-05-14 18:08:48,704 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,704 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:08:48,706 [INFO] TOOK memory_get OK
+2026-05-14 18:08:48,710 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:08:48,710 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:08:48,710 [INFO] TOOK memory_delete OK
+2026-05-14 18:10:23,782 [INFO] Server starting — sql-wizard:25018
+2026-05-14 18:10:25,729 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:25,733 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,734 [INFO] TOOL ping args={}
+2026-05-14 18:10:25,734 [INFO] TOOK ping OK
+2026-05-14 18:10:25,738 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,738 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:25,738 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:25,742 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,742 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:25,742 [INFO] TOOK echo OK
+2026-05-14 18:10:25,745 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,745 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:25,746 [INFO] TOOK memory_set OK
+2026-05-14 18:10:25,750 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,750 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:25,751 [INFO] TOOK memory_get OK
+2026-05-14 18:10:25,754 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:25,755 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:25,755 [INFO] TOOK memory_delete OK

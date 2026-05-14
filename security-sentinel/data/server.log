@@ -1,0 +1,21 @@
+2026-05-14 18:02:01,575 [INFO] Server starting — security-sentinel:25027
+2026-05-14 18:10:59,735 [INFO] Server starting — security-sentinel:25027
+2026-05-14 18:11:01,755 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:11:01,759 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,760 [INFO] TOOL ping args={}
+2026-05-14 18:11:01,760 [INFO] TOOK ping OK
+2026-05-14 18:11:01,763 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,764 [INFO] TOOL get_server_info args={}
+2026-05-14 18:11:01,764 [INFO] TOOK get_server_info OK
+2026-05-14 18:11:01,767 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,768 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:11:01,768 [INFO] TOOK echo OK
+2026-05-14 18:11:01,772 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,772 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:11:01,773 [INFO] TOOK memory_set OK
+2026-05-14 18:11:01,776 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,776 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:11:01,778 [INFO] TOOK memory_get OK
+2026-05-14 18:11:01,781 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:11:01,781 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:11:01,782 [INFO] TOOK memory_delete OK

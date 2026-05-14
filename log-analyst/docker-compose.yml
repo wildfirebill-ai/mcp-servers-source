@@ -1,0 +1,10 @@
+services:
+  log-analyst:
+    build: .
+    ports:
+      - "25043:25043"
+    environment:
+      - MCP_PORT=25043
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

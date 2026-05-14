@@ -1,0 +1,21 @@
+2026-05-14 18:03:06,615 [INFO] Server starting — aws-specialist:25046
+2026-05-14 18:12:15,709 [INFO] Server starting — aws-specialist:25046
+2026-05-14 18:12:17,737 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:17,742 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,742 [INFO] TOOL ping args={}
+2026-05-14 18:12:17,742 [INFO] TOOK ping OK
+2026-05-14 18:12:17,746 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,746 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:17,746 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:17,749 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,749 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:17,750 [INFO] TOOK echo OK
+2026-05-14 18:12:17,754 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,754 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:17,754 [INFO] TOOK memory_set OK
+2026-05-14 18:12:17,758 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,758 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:17,760 [INFO] TOOK memory_get OK
+2026-05-14 18:12:17,764 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:17,764 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:17,765 [INFO] TOOK memory_delete OK

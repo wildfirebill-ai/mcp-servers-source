@@ -1,0 +1,10 @@
+services:
+  color-theorist:
+    build: .
+    ports:
+      - "25070:25070"
+    environment:
+      - MCP_PORT=25070
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

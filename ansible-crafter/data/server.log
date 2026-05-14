@@ -1,0 +1,21 @@
+2026-05-14 18:03:20,250 [INFO] Server starting — ansible-crafter:25050
+2026-05-14 18:12:31,764 [INFO] Server starting — ansible-crafter:25050
+2026-05-14 18:12:33,772 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:33,777 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,777 [INFO] TOOL ping args={}
+2026-05-14 18:12:33,777 [INFO] TOOK ping OK
+2026-05-14 18:12:33,781 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,781 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:33,781 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:33,784 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,784 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:33,784 [INFO] TOOK echo OK
+2026-05-14 18:12:33,788 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,789 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:33,789 [INFO] TOOK memory_set OK
+2026-05-14 18:12:33,793 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,793 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:33,794 [INFO] TOOK memory_get OK
+2026-05-14 18:12:33,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:33,799 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:33,799 [INFO] TOOK memory_delete OK

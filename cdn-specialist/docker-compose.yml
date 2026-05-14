@@ -1,0 +1,10 @@
+services:
+  cdn-specialist:
+    build: .
+    ports:
+      - "25089:25089"
+    environment:
+      - MCP_PORT=25089
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

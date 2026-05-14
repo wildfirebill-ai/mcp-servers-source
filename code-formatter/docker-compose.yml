@@ -1,0 +1,10 @@
+services:
+  code-formatter:
+    build: .
+    ports:
+      - "25086:25086"
+    environment:
+      - MCP_PORT=25086
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

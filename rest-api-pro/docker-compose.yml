@@ -1,0 +1,10 @@
+services:
+  rest-api-pro:
+    build: .
+    ports:
+      - "25036:25036"
+    environment:
+      - MCP_PORT=25036
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

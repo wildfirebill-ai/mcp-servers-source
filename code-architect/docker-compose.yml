@@ -1,0 +1,10 @@
+services:
+  code-architect:
+    build: .
+    ports:
+      - "25000:25000"
+    environment:
+      - MCP_PORT=25000
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

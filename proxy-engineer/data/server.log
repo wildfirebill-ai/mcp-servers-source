@@ -1,0 +1,21 @@
+2026-05-14 18:05:54,200 [INFO] Server starting — proxy-engineer:25095
+2026-05-14 18:15:31,920 [INFO] Server starting — proxy-engineer:25095
+2026-05-14 18:15:33,913 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:15:33,918 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,918 [INFO] TOOL ping args={}
+2026-05-14 18:15:33,918 [INFO] TOOK ping OK
+2026-05-14 18:15:33,922 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,922 [INFO] TOOL get_server_info args={}
+2026-05-14 18:15:33,922 [INFO] TOOK get_server_info OK
+2026-05-14 18:15:33,925 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,926 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:15:33,926 [INFO] TOOK echo OK
+2026-05-14 18:15:33,930 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,931 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:15:33,931 [INFO] TOOK memory_set OK
+2026-05-14 18:15:33,935 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,936 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:15:33,937 [INFO] TOOK memory_get OK
+2026-05-14 18:15:33,941 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:15:33,941 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:15:33,942 [INFO] TOOK memory_delete OK

@@ -1,0 +1,10 @@
+services:
+  api-builder:
+    build: .
+    ports:
+      - "25007:25007"
+    environment:
+      - MCP_PORT=25007
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

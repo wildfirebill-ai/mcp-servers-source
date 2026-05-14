@@ -1,0 +1,10 @@
+services:
+  shell-weaver:
+    build: .
+    ports:
+      - "25053:25053"
+    environment:
+      - MCP_PORT=25053
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

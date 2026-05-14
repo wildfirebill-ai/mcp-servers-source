@@ -1,0 +1,10 @@
+services:
+  ml-practitioner:
+    build: .
+    ports:
+      - "25029:25029"
+    environment:
+      - MCP_PORT=25029
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

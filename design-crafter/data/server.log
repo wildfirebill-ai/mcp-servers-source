@@ -1,0 +1,105 @@
+2026-05-14 18:00:38,641 [INFO] Server starting — design-crafter:25003
+2026-05-14 18:00:45,107 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:00:45,121 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,121 [INFO] TOOL ping args={}
+2026-05-14 18:00:45,121 [INFO] TOOK ping OK
+2026-05-14 18:00:45,136 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,137 [INFO] TOOL echo args={'text': 'Hello MCP World!'}
+2026-05-14 18:00:45,137 [INFO] TOOK echo OK
+2026-05-14 18:00:45,152 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,153 [INFO] TOOL get_server_info args={}
+2026-05-14 18:00:45,153 [INFO] TOOK get_server_info OK
+2026-05-14 18:00:45,166 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,167 [INFO] TOOL get_skills args={}
+2026-05-14 18:00:45,167 [INFO] TOOK get_skills OK
+2026-05-14 18:00:45,179 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,179 [INFO] TOOL generate_uuid args={}
+2026-05-14 18:00:45,179 [INFO] TOOK generate_uuid OK
+2026-05-14 18:00:45,188 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,188 [INFO] TOOL calculate args={'expression': '2 + 3 * 4'}
+2026-05-14 18:00:45,188 [INFO] TOOK calculate OK
+2026-05-14 18:00:45,197 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,197 [INFO] TOOL encode_base64 args={'text': 'hello'}
+2026-05-14 18:00:45,198 [INFO] TOOK encode_base64 OK
+2026-05-14 18:00:45,207 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,207 [INFO] TOOL decode_base64 args={'encoded': 'aGVsbG8='}
+2026-05-14 18:00:45,207 [INFO] TOOK decode_base64 OK
+2026-05-14 18:00:45,217 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,217 [INFO] TOOL hash_text args={'text': 'test', 'algorithm': 'sha256'}
+2026-05-14 18:00:45,218 [INFO] TOOK hash_text OK
+2026-05-14 18:00:45,227 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,228 [INFO] TOOL validate_json args={'text': '{"a":1}'}
+2026-05-14 18:00:45,228 [INFO] TOOK validate_json OK
+2026-05-14 18:00:45,239 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,239 [INFO] TOOL validate_json args={'text': 'invalid'}
+2026-05-14 18:00:45,239 [INFO] TOOK validate_json OK
+2026-05-14 18:00:45,252 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,252 [INFO] TOOL format_json args={'text': '{"b":2,"a":1}'}
+2026-05-14 18:00:45,252 [INFO] TOOK format_json OK
+2026-05-14 18:00:45,262 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,262 [INFO] TOOL memory_set args={'key': 'foo', 'value': 'bar'}
+2026-05-14 18:00:45,263 [INFO] TOOK memory_set OK
+2026-05-14 18:00:45,273 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,273 [INFO] TOOL memory_get args={'key': 'foo'}
+2026-05-14 18:00:45,274 [INFO] TOOK memory_get OK
+2026-05-14 18:00:45,283 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,283 [INFO] TOOL memory_list args={}
+2026-05-14 18:00:45,284 [INFO] TOOK memory_list OK
+2026-05-14 18:00:45,293 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,293 [INFO] TOOL memory_delete args={'key': 'foo'}
+2026-05-14 18:00:45,294 [INFO] TOOK memory_delete OK
+2026-05-14 18:00:45,304 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,304 [INFO] TOOL memory_stats args={}
+2026-05-14 18:00:45,304 [INFO] TOOK memory_stats OK
+2026-05-14 18:00:45,313 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,313 [INFO] TOOL generate_password args={'length': 20}
+2026-05-14 18:00:45,314 [INFO] TOOK generate_password OK
+2026-05-14 18:00:45,323 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,323 [INFO] TOOL random_number args={'min_val': 1, 'max_val': 10}
+2026-05-14 18:00:45,323 [INFO] TOOK random_number OK
+2026-05-14 18:00:45,332 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,332 [INFO] TOOL count_words args={'text': 'one two three four'}
+2026-05-14 18:00:45,332 [INFO] TOOK count_words OK
+2026-05-14 18:00:45,350 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:00:45,351 [INFO] TOOL get_time args={}
+2026-05-14 18:00:45,351 [INFO] TOOK get_time OK
+2026-05-14 18:07:14,693 [INFO] Server starting — design-crafter:25003
+2026-05-14 18:07:18,681 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:07:18,685 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,685 [INFO] TOOL ping args={}
+2026-05-14 18:07:18,685 [INFO] TOOK ping OK
+2026-05-14 18:07:18,689 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,689 [INFO] TOOL get_server_info args={}
+2026-05-14 18:07:18,689 [INFO] TOOK get_server_info OK
+2026-05-14 18:07:18,693 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,693 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:07:18,693 [INFO] TOOK echo OK
+2026-05-14 18:07:18,696 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,697 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:07:18,697 [INFO] TOOK memory_set OK
+2026-05-14 18:07:18,701 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,701 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:07:18,703 [INFO] TOOK memory_get OK
+2026-05-14 18:07:18,707 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:07:18,707 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:07:18,707 [INFO] TOOK memory_delete OK
+2026-05-14 18:09:23,795 [INFO] Server starting — design-crafter:25003
+2026-05-14 18:09:25,808 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:09:25,812 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,812 [INFO] TOOL ping args={}
+2026-05-14 18:09:25,812 [INFO] TOOK ping OK
+2026-05-14 18:09:25,816 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,816 [INFO] TOOL get_server_info args={}
+2026-05-14 18:09:25,816 [INFO] TOOK get_server_info OK
+2026-05-14 18:09:25,819 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,819 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:09:25,819 [INFO] TOOK echo OK
+2026-05-14 18:09:25,822 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,823 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:09:25,823 [INFO] TOOK memory_set OK
+2026-05-14 18:09:25,826 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,827 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:09:25,828 [INFO] TOOK memory_get OK
+2026-05-14 18:09:25,831 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:09:25,831 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:09:25,832 [INFO] TOOK memory_delete OK

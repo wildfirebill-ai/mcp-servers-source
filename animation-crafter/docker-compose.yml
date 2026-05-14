@@ -1,0 +1,10 @@
+services:
+  animation-crafter:
+    build: .
+    ports:
+      - "25059:25059"
+    environment:
+      - MCP_PORT=25059
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

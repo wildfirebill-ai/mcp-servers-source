@@ -1,0 +1,21 @@
+2026-05-14 18:01:37,590 [INFO] Server starting — git-guru:25020
+2026-05-14 18:10:31,705 [INFO] Server starting — git-guru:25020
+2026-05-14 18:10:33,741 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:10:33,746 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,746 [INFO] TOOL ping args={}
+2026-05-14 18:10:33,746 [INFO] TOOK ping OK
+2026-05-14 18:10:33,750 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,751 [INFO] TOOL get_server_info args={}
+2026-05-14 18:10:33,751 [INFO] TOOK get_server_info OK
+2026-05-14 18:10:33,754 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,754 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:10:33,754 [INFO] TOOK echo OK
+2026-05-14 18:10:33,758 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,758 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:10:33,759 [INFO] TOOK memory_set OK
+2026-05-14 18:10:33,762 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,762 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:10:33,763 [INFO] TOOK memory_get OK
+2026-05-14 18:10:33,767 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:10:33,767 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:10:33,768 [INFO] TOOK memory_delete OK

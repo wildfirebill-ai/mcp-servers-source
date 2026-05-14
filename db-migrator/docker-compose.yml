@@ -1,0 +1,10 @@
+services:
+  db-migrator:
+    build: .
+    ports:
+      - "25097:25097"
+    environment:
+      - MCP_PORT=25097
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

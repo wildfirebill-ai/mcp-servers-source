@@ -1,0 +1,10 @@
+services:
+  js-virtuoso:
+    build: .
+    ports:
+      - "25009:25009"
+    environment:
+      - MCP_PORT=25009
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

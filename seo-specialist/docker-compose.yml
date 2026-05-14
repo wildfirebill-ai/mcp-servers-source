@@ -1,0 +1,10 @@
+services:
+  seo-specialist:
+    build: .
+    ports:
+      - "25064:25064"
+    environment:
+      - MCP_PORT=25064
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

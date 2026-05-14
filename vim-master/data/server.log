@@ -1,0 +1,21 @@
+2026-05-14 18:03:23,686 [INFO] Server starting — vim-master:25051
+2026-05-14 18:12:35,759 [INFO] Server starting — vim-master:25051
+2026-05-14 18:12:37,786 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:12:37,790 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,790 [INFO] TOOL ping args={}
+2026-05-14 18:12:37,790 [INFO] TOOK ping OK
+2026-05-14 18:12:37,794 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,794 [INFO] TOOL get_server_info args={}
+2026-05-14 18:12:37,794 [INFO] TOOK get_server_info OK
+2026-05-14 18:12:37,798 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,799 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:12:37,799 [INFO] TOOK echo OK
+2026-05-14 18:12:37,803 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,803 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:12:37,804 [INFO] TOOK memory_set OK
+2026-05-14 18:12:37,807 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,808 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:12:37,809 [INFO] TOOK memory_get OK
+2026-05-14 18:12:37,812 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:12:37,812 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:12:37,813 [INFO] TOOK memory_delete OK

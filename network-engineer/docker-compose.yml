@@ -1,0 +1,10 @@
+services:
+  network-engineer:
+    build: .
+    ports:
+      - "25055:25055"
+    environment:
+      - MCP_PORT=25055
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

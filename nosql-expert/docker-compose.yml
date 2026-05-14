@@ -1,0 +1,10 @@
+services:
+  nosql-expert:
+    build: .
+    ports:
+      - "25019:25019"
+    environment:
+      - MCP_PORT=25019
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

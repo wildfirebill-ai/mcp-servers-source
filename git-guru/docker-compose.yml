@@ -1,0 +1,10 @@
+services:
+  git-guru:
+    build: .
+    ports:
+      - "25020:25020"
+    environment:
+      - MCP_PORT=25020
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

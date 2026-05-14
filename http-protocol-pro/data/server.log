@@ -1,0 +1,21 @@
+2026-05-14 18:05:02,877 [INFO] Server starting — http-protocol-pro:25080
+2026-05-14 18:14:31,721 [INFO] Server starting — http-protocol-pro:25080
+2026-05-14 18:14:33,762 [INFO] Processing request of type ListToolsRequest
+2026-05-14 18:14:33,767 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,767 [INFO] TOOL ping args={}
+2026-05-14 18:14:33,767 [INFO] TOOK ping OK
+2026-05-14 18:14:33,771 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,771 [INFO] TOOL get_server_info args={}
+2026-05-14 18:14:33,771 [INFO] TOOK get_server_info OK
+2026-05-14 18:14:33,775 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,775 [INFO] TOOL echo args={'text': 'hi'}
+2026-05-14 18:14:33,775 [INFO] TOOK echo OK
+2026-05-14 18:14:33,779 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,779 [INFO] TOOL memory_set args={'key': 'x', 'value': 'y'}
+2026-05-14 18:14:33,780 [INFO] TOOK memory_set OK
+2026-05-14 18:14:33,784 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,784 [INFO] TOOL memory_get args={'key': 'x'}
+2026-05-14 18:14:33,785 [INFO] TOOK memory_get OK
+2026-05-14 18:14:33,789 [INFO] Processing request of type CallToolRequest
+2026-05-14 18:14:33,789 [INFO] TOOL memory_delete args={'key': 'x'}
+2026-05-14 18:14:33,790 [INFO] TOOK memory_delete OK
