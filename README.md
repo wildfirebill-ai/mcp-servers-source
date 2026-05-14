@@ -1,5 +1,7 @@
 # MCP Servers — Source
 
+> Production deployment: [wildfirebill-ai/mcp-servers-prod](https://github.com/wildfirebill-ai/mcp-servers-prod)
+
 100 local MCP (Model Context Protocol) servers for coding,
 programming, and web development. Each runs on
 `localhost:25000-25099` with SSE transport.
