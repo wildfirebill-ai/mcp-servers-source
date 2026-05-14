@@ -66,7 +66,7 @@ cd server-name && stop.bat
   commands using `subprocess` with `shell=True`. This propagates
   current shell settings and variables, making it easier for a
   malicious actor to execute commands. These servers are designed
-  for <span style="color:red">**local development only**</span>.
+  for ⚠️WARNING⚠️ **local development only** ⚠️WARNING⚠️.
   Do not expose to public networks. Use `shell=False` for any
   production-facing code.
   See: <https://semgrep.dev/r?q=python.lang.security.audit.subprocess-shell-true.subprocess-shell-true>
